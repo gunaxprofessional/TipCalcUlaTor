@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guna</title>
+    <script src="javaScript.js"></script>
+    <link rel="stylesheet" href="style-1.css">
+</head>
+
+<body>
+    <div class="main">
+        <b id="title"><u>Tip Calculator</u></b><br><br>
+        <b>Enter The Total Bill Amount</b> <input type="text" placeholder="0 rs" id="totBill"></input><br><br>
+        <b>Select the Precentage According to Service</b>
+        <select id="service">
+            <option value="0.05">5&#37;</option>
+            <option value="0.1">10&#37;</option>
+            <option value="0.15">15&#37;</option>
+            <option value="0.2">20&#37;</option>
+        </select><br> <br>
+        <b>How many member are sharing the bill?</b> <input type="text" id="numpeo" value="1"></input><br> <br>
+        <input type="button" value="Calculate" onclick="cal()" id="btn"> <br><br>
+        <b>Total Tip Amount</b> <i id="tip">None</i> <br>
+        <b>Total Amount You Need To Pay</b><i id="TA">None</i>
+    </div>
+
+</body>
+
+</html>

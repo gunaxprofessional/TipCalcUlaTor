@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-duration: 1s;
+}
+
+.main {
+    display: inline-block;
+    margin: 7% auto auto 30%;
+    padding: 2%;
+    font-size: 17px;
+    border: 1px solid #941212;
+    box-shadow: 3px 2px #941212;
+    border-radius: 5px;
+    width: 35%;
+    background-color: burlywood;
+}
+
+#title {
+    margin-left: 37%;
+    font-size: 28px;
+}
+
+input[type=text] {
+    padding: 4px;
+    font-weight: bolder;
+    width: 30%;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#service {
+    padding: 4px;
+}
+
+#service:focus {
+    outline: none;
+    border: 1px solid red;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 13px;
+    letter-spacing: 2px;
+    background-color: rgb(35, 146, 146);
+}
+
+input[type=text]:focus {
+    outline: none;
+    border: 1px solid red;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: rgb(27, 128, 128);
+}
+
+#btn {
+    padding: 5px;
+    width: 20%;
+    margin-left: 40%;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #941212;
+    color: aliceblue;
+}
+
+#btn:hover {
+    transition-duration: 2s;
+    background-color: #cf2c2cd2;
+    outline: none;
+    color: black;
+}
+
+#tip {
+    margin-left: 5%;
+}
+
+#TA {
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        margin: 10% 5% 0 5%;
+        width: auto;
+    }
+    #title {
+        margin-left: 25%;
+    }
+    #numpeo {
+        margin-left: 30%;
+        width: 15%;
+    }
+    #btn {
+        margin-left: 20%;
+        width: 40%;
+    }
+    #service {
+        margin-left: 30%;
+    }
+}

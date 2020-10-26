@@ -1,4 +1,4 @@
-function cal() {
+function calculate() {
 
     var BillAmount = document.getElementById("totBill").value;
     var Service = document.getElementById("service").value
